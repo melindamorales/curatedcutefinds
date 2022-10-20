@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- remix icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/8ec306166f.js" crossorigin="anonymous"></script>
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./stylesheet/style.css">
+
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+
+
+    
+    <title>Curated Cute Finds</title>
+
+</head>
+
+<body>
+
+
+    <!-- header -->
+    <header class="header" id="header">
+
+        <nav class="navbar container">
+            <a href="./index.html">
+                <h2 class="logo">CuratedCuteFinds</h2>
+            </a>
+
+            <div class="menu" id="menu">
+                <ul class="list">
+                    <li class="list-item">
+                        <a href="#" class="list-link current">Home</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Catergories</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Reviews</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">News</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Memberships</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">Contact</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign in</a>
+                    </li>
+                    <li class="list-item screen-lg-hidden">
+                        <a href="#" class="list-link">Sign up</a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="list list-right">
+                <button class="btn place-items-center" id="theme-toggle-btn">
+                    <i class="ri-sun-line sun-icon"></i>
+                    <i class="ri-moon-line moon-icon"></i>
+                </button>
+
+                <button class="btn place-items-center" id="search-icon">
+                    <i class="ri-search-line"></i>
+                </button>
+
+                <button class="btn place-items-center screen-lg-hidden menu-toggle-icon" id="menu-toggle-icon">
+                    <i class="ri-menu-3-line open-menu-icon"></i>
+                    <i class="ri-close-line close-menu-icon"></i>
+                </button>
+
+                <a href="#" class="list-link screen-sm-hidden">Sign In</a>
+                <a href="#" class="list-link screen-sm-hidden btn sign-up-btn fancy-border"> <span>Sign In</span></a>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <!-- search -->
+    <div class="search-form-container container" id="search-form-container">
+        <div class="form-container-inner">
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="what are you looking for?">
+
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-search-line"></i>
+                </button>
+
+            </form>
+
+            <span class="form-note">Or press ESC to close</span>
+
+        </div>
+
+        <button class="btn form-close-btn place-items-center" id="form-close-btn">
+            <i class="ri-close-line"></i>
+        </button>
+    </div>
+
+
+
+
+
+    <!-- featured articles section -->
+
+    <section class="featured-article section-header-offset">
+
+        <div class="featured-articles-container container d-grid">
+            <div class="featured-content d-grid">
+                <div class="headline-banner">
+                    <h3 class="headline fancy-border">
+                        <span class="place-items-center">
+                            Breaking News
+                        </span>
+                    </h3>
+                    <span class="headline-description">
+                        Apple is uh good
+                    </span>
+                </div>
+
+                <a href="./index.html" class="article featured-article featured-article-1">
+                    <img src="./imgs/breaking news images/587c68699874a422ee67c764023bfed9.jpeg" alt="hamster on a cloud"
+                        class="article-image">
+                    <span class="article-category">
+                        Hamster spotted on cloud
+                    </span>
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Oct 15 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            are hamsters taking over?
+                        </h3>
+
+                    </div>
+                </a>
+
+
+                <a href="./index.html" class="article featured-article featured-article-2">
+                    <img src="./imgs/breaking news images/ff5a0eb7d2a7ac7cca46fde221cd7fd7.jpeg" alt="cat with a bag on its head"
+                        class="article-image">
+                    <span class="article-category">
+                        mysterious cat spotted
+                    </span>
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Oct 16 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            cute zombie?
+                        </h3>
+
+                    </div>
+                </a>
+
+
+                <a href="./index.html" class="article featured-article featured-article-3">
+                    <img src="./imgs/breaking news images/lazy cat.jpeg" alt="a lazy cat laying down" class="article-image">
+                    <span class="article-category">
+                        chubby lazy cat spotted
+                    </span>
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>Oct 17 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            why is he so lazy?
+                        </h3>
+
+                    </div>
+                </a>
+            </div>
+
+
+
+            <!-- sidebar -->
+
+            <div class="sidebar d-grid">
+                <h3 class="title featured-content-title">trending news</h3>
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">01</span>
+                        <img src="./imgs/trending images/22afa632ae5eb059d25b4d25dda25c7e.jpeg" alt="idk yet" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Oct 1 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">sample article title</h3>
+
+                    </div>
+                </a>
+
+
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">02</span>
+                        <img src="./imgs/trending images/331ac30b0f22d33255765773c8042fc4.jpeg" alt="idk yet" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Oct 17 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">sample article title</h3>
+
+                    </div>
+                </a>
+
+
+
+                
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">03</span>
+                        <img src="./imgs/trending images/5c6c8f5d911a2c8a3f92bf677aaf5ef5.jpeg" alt="idk yet" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Oct 17 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">sample article title</h3>
+
+                    </div>
+                </a>
+
+
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">04</span>
+                        <img src="./imgs/trending images/e21e6aed664e8368d1898c25af99069e.jpeg" alt="idk yet" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Oct 17 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">sample article title</h3>
+
+                    </div>
+                </a>
+
+
+
+
+                <a href="#" class="trending-news-box">
+                    <div class="trending-news-image-box">
+                        <span class="trending-number place-items-center">05</span>
+                        <img src="./imgs/trending images/e5d7009cd41dd7b2a71994587d2034a5.jpeg" alt="idk yet" class="article-image">
+                    </div>
+
+                    <div class="trending-news-data">
+                        <div class="article-data">
+                            <span>Oct 17 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">sample article title</h3>
+
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+    <!-- quick read section -->
+    <section class="quick-read section">
+        <div class="container">
+            <h2 class="title section-title" data-name="Quick Read">Quick Read</h2>
+
+
+            <div class="swiper">
+                <div class="swiper-wrapper">
+
+
+
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./imgs/quick read images/cow spotted bear mascot.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>sept 20 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 sec read</span>
+                            </div>
+    
+                            <h3 class="title article-title">
+                                what a cute mascot!
+                            </h3>
+    
+                        </div>
+                    </a>
+
+
+
+
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./imgs/quick read images/sleepy bear mascot.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>sept 20 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 sec read</span>
+                            </div>
+    
+                            <h3 class="title article-title">
+                                what a cute mascot!
+                            </h3>
+    
+                        </div>
+                    </a>
+
+
+
+
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./imgs/quick read images/two cute mascots meeting.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>sept 20 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 sec read</span>
+                            </div>
+    
+                            <h3 class="title article-title">
+                                what a cute mascot!
+                            </h3>
+    
+                        </div>
+                    </a>
+
+
+
+
+
+
+                    <a href="#" class="article swiper-slide">
+                        <img src="./imgs/quick read images/yellow bear mascot.jpeg" alt="" class="article-image">
+
+                        <div class="article-data-container">
+
+                            <div class="article-data">
+                                <span>sept 20 2022</span>
+                                <span class="article-data-spacer"></span>
+                                <span>2 sec read</span>
+                            </div>
+    
+                            <h3 class="title article-title">
+                                what a cute mascot!
+                            </h3>
+    
+                        </div>
+                    </a>
+
+            
+                </div>
+
+
+                <div class="swiper-button-prev swiper-controls"></div>
+                <div class="swiper-button-next swiper-controls"></div>
+
+
+                <div class="swiper-pagination"></div>
+
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- older posts section -->
+    <section class="older-posts section">
+        <div class="container">
+
+            <h2 class="title section-title" data-name="Older posts">Older posts</h2>
+
+            <div class="older-posts-grid-wrapper d-grid">
+
+                <a href="#" class="article d-grid">
+                  
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="./imgs/older posts images/cute cake1.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>sept 20 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            what a cute mascot!
+                        </h3>
+
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur beatae dolor est ipsam eveniet ea? Voluptate, vero blanditiis cum ad natus odit et unde, amet, illum aperiam id neque!
+                        </p>
+                    </div>
+                    
+                </a>
+
+
+
+                <a href="#" class="article d-grid">
+                  
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="./imgs/older posts images/cute cake 2.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>sept 20 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            what a cute mascot!
+                        </h3>
+
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. cum ad natus odit et unde, amet, illum aperiam id neque!
+                        </p>
+                    </div>
+                    
+                </a>
+
+
+
+                <a href="#" class="article d-grid">
+                  
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="./imgs/older posts images/cute cake 3.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>sept 20 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            what a cute mascot!
+                        </h3>
+
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur beatae dolor est ipsam eveniet ea? Voluptate, vero blanditiis cum ad natus odit et unde, amet, illum aperiam id neque!
+                        </p>
+                    </div>
+                    
+                </a>
+
+
+
+                <a href="#" class="article d-grid">
+                  
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="./imgs/older posts images/cute cake 4.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>sept 20 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            what a cute mascot!
+                        </h3>
+
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur beatae dolor est ipsam eveniet ea? Voluptate, vero blanditiis cum ad natus odit et unde, amet, illum aperiam id neque!
+                        </p>
+                    </div>
+                    
+                </a>
+
+
+                <a href="#" class="article d-grid">
+                  
+                    <div class="older-posts-article-image-wrapper">
+
+                        <img src="./imgs/older posts images/cute cake 5.jpeg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>sept 20 2022</span>
+                            <span class="article-data-spacer"></span>
+                            <span>2 sec read</span>
+                        </div>
+
+                        <h3 class="title article-title">
+                            what a cute mascot!
+                        </h3>
+
+                        <p class="article-description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur beatae dolor est ipsam eveniet ea?vero neque!
+                        </p>
+                    </div>
+                    
+                </a>
+
+            </div>
+
+
+            <div class="see-more-container">
+                <a href="#" class="btn see-more-btn place-items-center">
+
+                    see more <i class="ri-arrow-right-s-line"></i>
+
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- popular tags section -->
+
+<section class="popular-tags section">
+    <div class="container">
+
+
+        <h2 class="title section-title" data-name="Popular tags">Popular tags</h2>
+
+        <div class="popular-tags-container d-grid">
+
+            <a href="#" class="article">
+                <span class="tag-name">#Mascot</span>
+                <img src="./imgs/popular tags images/pop tag pic 1.jpeg" alt="" class="article-image">
+            </a>
+
+
+
+
+            <a href="#" class="article">
+                <span class="tag-name">#Rilakkuma</span>
+                <img src="./imgs/popular tags images/pop tag pic 2.jpeg" alt="" class="article-image">
+            </a>
+
+
+
+
+
+            <a href="#" class="article">
+                <span class="tag-name">#CuteCakes</span>
+                <img src="./imgs/popular tags images/pop tag pic 3.jpeg" alt="" class="article-image">
+            </a>
+
+
+
+
+
+            <a href="#" class="article">
+                <span class="tag-name">#Decorations</span>
+                <img src="./imgs/popular tags images/pop tag pic 4.jpeg" alt="" class="article-image">
+            </a>
+
+
+
+
+
+            <a href="#" class="article">
+                <span class="tag-name">#Plushies</span>
+                <img src="./imgs/popular tags images/pop tag pic 5.jpeg" alt="" class="article-image">
+            </a>
+        </div>
+
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- newsletter -->
+
+    <section class="newsletter section">
+        <div class="container">
+
+          <h2 class="title section-title" data-name="Newsletter">Newsletter</h2>
+
+
+          <div class="form-container-inner">
+              <h6 class="title newsletter-title">Subscribe to CuratedCuteFinds</h6>
+              <p class="newsletter-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat eligendi odio inventore ducimus tempora modi, in ratione excepturi  ab!</p>
+
+
+            <form action="" class="form">
+                <input type="text" class="form-input" placeholder="Enter your email adress">
+
+                <button class="btn form-btn" type="submit">
+                    <i class="ri-mail-send-line"></i>
+                </button>
+
+            </form>
+
+
+
+          </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- blog post -->
+
+    <section class="blog-post section-header-offset">
+
+        <div class="blog-post-container container">
+
+            <div class="blog-post-data">
+
+                <h3 class="title blog-post-title"> Are you excited for spooky season like we are?</h3>
+
+                <div class="article-data">
+                    <span> Oct 17 2022</span>
+                    <span class="article-data-spacer"></span>
+                    <span> 2 min read</span>
+                </div>
+                <img src="./imgs/breaking news images/587c68699874a422ee67c764023bfed9.jpeg" alt="" class="">
+            </div>
+
+            <div class="container">
+
+               <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibusiste, cumque natus, neque rerum assumenda ratione quam explicabo enim impedit! Inventore.</p>
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis. Ab id saepe ratione maiores velit totam in distinctio at quo voluptas culpa quaerat optio illum, voluptatum incidunt qui sed.</p>
+
+               <blockquote class="quote">
+                   <p>
+                       <span><i class="ri-double-quotes-l"></i></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis. Ab id saep culpa quaerat optio illum, voluptatum <span><i class="ri-double-quotes-r"></i></span>
+                   </p>
+               </blockquote>
+
+
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, nobis. Ab id saepe ratione maiores velit totam in distinctio at quo voluptas culpa quaerat optio illum, voluptatum incidunt qui sed.</p>
+
+
+               <div class="author d-grid">
+
+                <div class="author-image-box">
+                    <img src="./imgs/author images/kittyyyy.png" alt="" class="article-image">
+                </div>
+
+                <div class="author-about">
+
+                    <h3 class="author-name">Ponyo</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid vel nobis saepe ,  laborum hic blanditiis fugiat, rem animi dolores. Quibusdam, tempore quos.</p>
+
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+
+                </div>
+               </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer -->
+
+    <footer class="footer section">
+
+        <div class="footer-container container d-grid">
+
+            <div class="company-data">
+
+                <a href="./index.html">
+                    <h2 class="logo">CuratedCuteFinds</h2>
+                </a>
+
+                <p class="company-description">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad itaque dolore commodi temporibus eum id quod deserunt molestiae excepturi! Sed qui reiciendis quos odio quisquam fugit error dicta voluptatem dolor.
+                </p>
+
+                <ul class="list social-media">
+                    <li class="list-item">
+                        <a href="#" class="list-link">
+                            <i class="ri-instagram-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-facebook-circle-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-twitter-line"></i>
+                        </a>
+                        <a href="#" class="list-link">
+                            <i class="ri-pinterest-line"></i>
+                        </a>
+                    </li>
+                </ul>
+
+                <span class="copyright-notice">&copy; 2022 CuratedCuteFinds. All rights reserved</span>
+
+            </div>
+
+    
+            <div>
+                <h6 class="title footer-title">Catergories</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+
+
+
+            <div>
+                <h6 class="title footer-title">Useful links</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+
+            
+            <div>
+                <h6 class="title footer-title">Company</h6>
+
+                <ul class="list footer-list">
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#" class="list-link">sample item</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- swiper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+
+    <!-- js file -->
+    <script src="./index.js"></script>
+
+</body>
+
+</html>
